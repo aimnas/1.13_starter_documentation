@@ -60,3 +60,53 @@ TODO
 ### 1.2.3 Install 1.13 from SVN
 
 If you have a special reason to not use the SCI release, for example if you are actively helping to fix bugs in 1.13, it can be handy to get your gamedata and executable from source, this is however an advanced topic
+
+
+## 1.3 Fixes for newer Windows versions
+TODO
+
+### 1.3.1 Windows 8+
+TODO
+
+There are a few things you will need to do to be able to play 1.13 well on the Windows 8+ versions, here's a list:
+
+- wine dll's
+- registry fixes for 16-bit color mode
+- running on one CPU thread
+
+### 1.3.2 Windows 7 and older
+
+Technically there is no need to adjust anything to make 1.13 run well on Windows 7
+
+
+# 2 Playing 1.13
+TODO
+
+## 2.1 Starting a new game
+TODO
+
+## 2.2 Game settings
+TODO
+
+### 2.2.1 New Game Settings
+TODO
+
+### 2.2.2 INI files
+TODO
+
+#### 2.2.2.1 ja2.ini
+TODO
+#### 2.2.2.2 JA2_Options.ini
+TODO
+#### 2.2.2.3 XML Files
+TODO
+
+## 2.3 Frequently Asked Settings
+TODO
+
+### 2.3.1 Starting Cash
+TODO
+
+# 3 Mods
+TODO
+
