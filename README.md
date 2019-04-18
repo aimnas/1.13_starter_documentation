@@ -32,6 +32,7 @@ After you got your hand on a copy of JA2 and want to go install it, we have a fe
 
 - Don't install the game to a default folder like "Program Files" or "Program Files (x86)", instead make a folder "C:\Games" (depending on your disk setup) and install the game there.
 - After installing Jagged Alliance, make a backup of the folderso you dont have to do a reinstallation each time you want to start from scratch, so for example copy "C:\Games\Jagged Alliance 2" to a backup copy, technically you can make endless copies of the JA2 folder for different 1.13 mod based installations, naming of the folder doesn't matter.
+- If you wonder how you will be able to use the Steam version of JA2, you can find it in the installation directory of Steam, usually in a place like "C:\Program Files\Steam\steamapps\" you can make a copy of the Jagged Alliance 2 folder to a place like "C:\Games"
 
 ## 1.2 the 1.13 mod
 
