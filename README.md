@@ -59,7 +59,7 @@ TODO
 
 ### 1.2.3 Install 1.13 from SVN
 
-If you have a special reason to not use the SCI release, for example if you are actively helping to fix bugs in 1.13, it can be handy to get your gamedata and executable from source, this is however an advanced topic
+If you have a special reason to not use the SCI release, for example if you are actively helping to fix bugs in 1.13, it can be handy to get your gamedata and executable from source, this is however an advanced topic.
 
 
 ## 1.3 Fixes for newer Windows versions
@@ -104,9 +104,37 @@ TODO
 ## 2.3 Frequently Asked Settings
 TODO
 
-### 2.3.1 Starting Cash
+### 2.3.1 Disappeared New Game Settings
+TODO
+
+### 2.3.2 Starting Cash
+TODO
+
+### 2.3.3 NCTH/OCTH
 TODO
 
 # 3 Mods
 TODO
 
+# 3.1 AIMNAS
+TODO
+
+# 3.2 Urban Chaos 1.13
+TODO
+
+# 3.3 Vengeance 1.13 Reloaded
+TODO
+
+# 3.4 Arulco Revisited
+TODO
+
+# 4 Feature Deep Dive
+
+# 4.1 NCTH
+TODO
+
+# 5 Using SVN
+TODO
+
+# 4.1 Compiling the game executable
+TODO
