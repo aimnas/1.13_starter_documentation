@@ -48,16 +48,14 @@ Once you have your clean JA2 installation ready to be turned into a clean 1.13 i
 
 This is the preferred way to go for people who want to start playing 1.13, it will give you a good out of the box experience.  
 You can get the latest SCI file from the following OneDrive location [link](https://onedrive.live.com/?id=13A6926EAC52083!583&cid=013A6926EAC52083)  
-If you sort the OneDrive file listing from new to old you should see the file with the highest revision number up on top, download this one.  
+If you sort the OneDrive file listing from new to old you should see the file with the highest revision number up on top, download this one.
 
-Once you have downloaded the file you will need to extract it, there are different tools to use for this like [7-Zip](https://www.7-zip.org/ "7-Zip homepage")  
-Extract the file to the location where your target JA2 installation is located and choose to overwrite files if you get asked, so for this example we'll use "C:\Games\Jagged Alliance 2\"  
+Once you have downloaded the file you will need to extract it, there are different tools to use for this like [7-Zip](https://www.7-zip.org/ "7-Zip homepage").
+Extract the file to the location where your target JA2 installation is located and choose to overwrite files if you get asked, so for this example we'll use `C:\Games\Jagged Alliance 2\`. **If you are not prompted to overwrite files, you did not extract to the correct directory.**
 
 ### 1.2.2 Install release 7609
 
 For the special cases with a requirement to run on release 7609, you can find it on the [official 1.13 wiki site](http://ja2v113.pbworks.com/w/page/4218334/Downloads)
-
-TODO
 
 ### 1.2.3 Install 1.13 from SVN
 
@@ -65,10 +63,8 @@ If you have a special reason to not use the SCI release, for example if you are 
 
 
 ## 1.3 Fixes for newer Windows versions
-TODO
 
 ### 1.3.1 Windows 8+
-TODO
 
 There are a few things you will need to do to be able to play 1.13 well on the Windows 8+ versions, here's a list:
 
@@ -97,6 +93,7 @@ TODO
 ### 2.2.1 New Game Settings
 TODO: descriptions and lists of possible values
 TODO: list 7609 options
+
 The following is from build 8657:
 - Difficulty level [Novice, Experienced, Expert, Insane]
 - Skill Traits
@@ -111,24 +108,22 @@ The following is from build 8657:
 Missing setting? -> refer to section 2.3.1
 
 ### 2.2.2 Config files
-TODO
 Part of the beauty of the 1.13 mod is just how much control the player has to tailor the experience to their own tastes. This is done via a number of config files.
+
 **Do not use the included INI editor. It is known to cause problems.** To edit INI and XML files, use a text editor. Preferably, one that is more sophisticated than Windows's Notepad, such as [Notepad++](https://notepad-plus-plus.org/).
+
 #### 2.2.2.1 ja2.ini
-TODO
 Found in the root directory (i.e. aside `ja2.exe`). Manages global settings such as resolution and enabling windowed mode.
 #### 2.2.2.2 JA2_Options.ini
-TODO
 Found in the `Data-1.13` directory. This is where you will find the bulk of the settings for 1.13.
-TODO: list some commonly used / useful settings to change 
 #### 2.2.2.3 XML Files
-TODO
 Found in the `\Data-1.13\TableData` directory.
 
 ## 2.3 Frequently Asked Settings
 
 ### 2.3.1 Disappeared New Game Settings
 TODO
+
 In build XXXX, some of the New Game settings were moved to `JA2_Options.ini`.
 
 ### 2.3.2 Starting Cash
@@ -140,29 +135,8 @@ TODO
 ### 2.3.4 Drassen counterattack is too difficult!
 JA2_Options.ini: Set `TRIGGER_MASSIVE_ENEMY_COUNTERATTACK_AT_DRASSEN` to `FALSE`.
 
-## 2.4 More settings of interest
-
-### 2.4.1 INI tweaks
-The following settings can be found in `JA2_Options.ini`.
-
-#### 2.4.1.1 Difficulty related
-- `SELL_ITEMS_WITH_ALT_LMB` allows the player to sell their items from the sector inventory screen whenever they wish.
-- `MINE_INCOME_PERCENTAGE` changes how much cash mines generate. Can be used to make the game easier or harder.
-- `STEALING_FROM_SHIPMENTS_DISABLED` can disable stealing from shipments (e.g. Pablo in Drassen).
-- `CHANCE_OF_SHIPMENT_LOSS` sets the chance of a whole shipment from Bobby Ray being lost.
-- `CHANCE_TONY_AVAILABLE` can be set to 100% if you always want to meet Tony (a useful fellow).
-
-#### 2.4.1.2 Misc. settings
-- `MERCS_CAN_BE_ON_ASSIGNMENT` changes if all mercs will be available at the start of the game and if they will go on other assignments during the campaign.
-- `MERCS_CAN_DIE_ON_ASSIGNMENT` allows mercs to die when away on other assignments.
-- `SHOW_SKILLS_IN_HIRING_PAGE` shows skills and traits as a tooltip on a merc's portrait in both the AIM & MERC hiring page.
-
-### 2.4.2 XML tweaks
-
-#### 2.4.2.1 Vehicle capacity
-By default, the helicopter, hummer and ice cream truck all hold a maximum of six mercs. If you are fielding larger squads than this, you can edit each vehicle's capacity to make squad movement easier.
-
-In `\Data-1.13\TableData\Vehicles.xml`, find `<uiIndex>` 160 (hummer), 162 (ice cream truck) and 163 (helicopter). For each, you can change the `<SeatingCapacities>` value from 6 to 8, 10, or whatever you want.
+### 2.3.5 There are so many settings! What should I look at first?
+Take a look [here](settings.md) for some settings we recommend you look at first.
 
 
 # 3 Mods
@@ -198,7 +172,5 @@ TODO
 
 
 # 6 Useful links
-TODO
-
 - [Bear's Pit community](http://thepit.ja-galaxy-forum.com/)
 - Discord link?
