@@ -145,7 +145,7 @@ For in-depth details on some of these new systems, please refer to section 4.
 ## 2.4 Frequently Asked Settings
 
 ### 2.4.1 My New Game settings don't have all the options I recall/have seen elsewhere. Where are they now?
-In build XXXX, some of the New Game settings were moved to `JA2_Options.ini`.
+In revision 8610, some of the New Game settings were moved to `JA2_Options.ini`.
 
 ### 2.4.2 How do I change the amount of cash I start with?
 To change the amount of money you start with, open `\Data-1.13\TableData\DifficultySettings.xml` and edit the `<StartingCash>` value of the difficulty you want to play.
