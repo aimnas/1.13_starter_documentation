@@ -111,6 +111,7 @@ The following is from build 8657:
 - Max. Squad Size
 - Bobby Ray Quality
 - Bobby Ray Quantity
+
 Missing setting? -> refer to section 2.3.1
 
 ### 2.2.2 Config files
@@ -130,6 +131,8 @@ Found in the `\Data-1.13\TableData` directory. These files store all sorts of da
 ## 2.3 Using the new features
 TODO
 
+For in-depth details on some of these new systems, please refer to section 4.
+
 - sorting inventories
 - keyboard shortcuts
   - grenade launcher angle
@@ -141,9 +144,7 @@ TODO
 
 ## 2.4 Frequently Asked Settings
 
-### 2.4.1 Disappeared New Game Settings
-TODO
-
+### 2.4.1 My New Game settings don't have all the options I recall/have seen elsewhere. Where are they now?
 In build XXXX, some of the New Game settings were moved to `JA2_Options.ini`.
 
 ### 2.4.2 How do I change the amount of cash I start with?
@@ -153,7 +154,7 @@ To change the amount of money you start with, open `\Data-1.13\TableData\Difficu
 TODO
 
 ### 2.4.4 The Drassen counterattack is too difficult!
-That's not a question but in JA2_Options.ini you can set `TRIGGER_MASSIVE_ENEMY_COUNTERATTACK_AT_DRASSEN` to `FALSE` to disable it.
+That's not a question but in `JA2_Options.ini` you can set `TRIGGER_MASSIVE_ENEMY_COUNTERATTACK_AT_DRASSEN` to `FALSE` to disable it.
 
 ### 2.4.5 There are so many settings, what should I change first?
 [Here are some settings we recommend you take a look at first](settings.md).
