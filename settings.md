@@ -3,7 +3,7 @@
 Listed below are some settings we recommend taking a look at to potentially make the game more enjoyable for you.
 
 ## Notes
-Regarding directories: wherever you see `\Data-1.13\...`, the `1.13` part should be replaced if playing another mod other than 1.13. e.g. `\Data-aimnas\...`
+Regarding directories: wherever you see `\Data-1.13\...`, the `1.13` part should be replaced if playing another mod other than 1.13. e.g. `\Data-AIM\...` for AIMNAS.
 
 
 # INI tweaks
