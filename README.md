@@ -1,22 +1,28 @@
+<p align="center">
+  <img src="113.png" alt="Jagged Alliance 2 1.13">
+</p>
+
 # 0 Intro
 
 ## 0.1 Preamble
 
 **WORK IN PROGRESS**
 
-This document is an attempt to create clear and structured starter documentation for people who want to start playing 1.13.  
+This document is an attempt to create clear and structured starter documentation for people who want to start playing Jagged Alliance 2 v1.13, which will henceforth be referred to as simply "1.13".
 From years of hanging around in the [Bear's Pit community](http://thepit.ja-galaxy-forum.com/) we noticed there's a complete lack of explanation how to get started with this mod and everything surrounding it.
 
 This documentation is up to date as of version XXXX.
 
 ## 0.2 What is 1.13?
 
-Jagged Alliance 2 v1.13 is a MODIFICATION for the Jagged Alliance 2 game, with a host of new features and improvements, as well as externalizing a lot of data to make modding easier.  
+Jagged Alliance 2 v1.13 is a modification for the Jagged Alliance 2 game, with a host of new features and improvements, as well as externalizing a lot of data to make modding easier.
 Lots of features have been added like new resolutions, improved AI, weather effects and new items. 1.13 does still contain the original maps and quests.
 The 1.13 mod has been structured in such a way that it can be used as a baseline for creating new mods.
 
 ## 0.3 List of Features
 TODO
+
+http://ja2v113.pbworks.com/w/page/4218338/Features
 
 
 # 1 Installation
@@ -50,7 +56,7 @@ This is the preferred way to go for people who want to start playing 1.13, it wi
 You can get the latest SCI file from the following OneDrive location [link](https://onedrive.live.com/?id=13A6926EAC52083!583&cid=013A6926EAC52083)  
 If you sort the OneDrive file listing from new to old you should see the file with the highest revision number up on top, download this one.
 
-Once you have downloaded the file you will need to extract it, there are different tools to use for this like [7-Zip](https://www.7-zip.org/ "7-Zip homepage").
+Once you have downloaded the file you will need to extract its contents with a file archiver. There are different tools to use for this like [7-Zip](https://www.7-zip.org/ "7-Zip homepage").
 Extract the file to the location where your target JA2 installation is located and choose to overwrite files if you get asked, so for this example we'll use `C:\Games\Jagged Alliance 2\`. **If you are not prompted to overwrite files, you did not extract to the correct directory.**
 
 ### 1.2.2 Install release 7609
@@ -112,31 +118,45 @@ Part of the beauty of the 1.13 mod is just how much control the player has to ta
 
 **Do not use the included INI editor. It is known to cause problems.** To edit INI and XML files, use a text editor. Preferably, one that is more sophisticated than Windows's Notepad, such as [Notepad++](https://notepad-plus-plus.org/).
 
+Regarding directories: wherever you see `\Data-1.13\...`, the `1.13` part should be replaced if playing another mod other than 1.13. e.g. `\Data-AIM\...` for AIMNAS.
+
 #### 2.2.2.1 ja2.ini
 Found in the root directory (i.e. aside `ja2.exe`). Manages global settings such as resolution and enabling windowed mode.
 #### 2.2.2.2 JA2_Options.ini
-Found in the `Data-1.13` directory. This is where you will find the bulk of the settings for 1.13.
+Found in the `\Data-1.13` directory. This is where you will find the bulk of the settings for 1.13.
 #### 2.2.2.3 XML Files
-Found in the `\Data-1.13\TableData` directory.
+Found in the `\Data-1.13\TableData` directory. These files store all sorts of data, such as items, enemy drop tables, NPC inventories, mercenary data, etc. Some files of interest may include `\TableData\Items\Weapons.xml`, `\TableData\DifficultySettings.xml` and `\TableData\Vehicles.xml`.
 
-## 2.3 Frequently Asked Settings
+## 2.3 Using the new features
+TODO
 
-### 2.3.1 Disappeared New Game Settings
+- sorting inventories
+- keyboard shortcuts
+  - grenade launcher angle
+  - jumping/vaulting
+  - dropping/picking up all backpacks
+  - toggle NVG/sunglasses
+- spotting for a sniper
+- ammo bearing for a machinegunner
+
+## 2.4 Frequently Asked Settings
+
+### 2.4.1 Disappeared New Game Settings
 TODO
 
 In build XXXX, some of the New Game settings were moved to `JA2_Options.ini`.
 
-### 2.3.2 Starting Cash
+### 2.4.2 How do I change the amount of cash I start with?
 To change the amount of money you start with, open `\Data-1.13\TableData\DifficultySettings.xml` and edit the `<StartingCash>` value of the difficulty you want to play.
 
-### 2.3.3 NCTH/OCTH
+### 2.4.3 What is the difference between OCTH and NCTH?
 TODO
 
-### 2.3.4 Drassen counterattack is too difficult!
-JA2_Options.ini: Set `TRIGGER_MASSIVE_ENEMY_COUNTERATTACK_AT_DRASSEN` to `FALSE`.
+### 2.4.4 The Drassen counterattack is too difficult!
+That's not a question but in JA2_Options.ini you can set `TRIGGER_MASSIVE_ENEMY_COUNTERATTACK_AT_DRASSEN` to `FALSE` to disable it.
 
-### 2.3.5 There are so many settings! What should I look at first?
-Take a look [here](settings.md) for some settings we recommend you look at first.
+### 2.4.5 There are so many settings, what should I change first?
+[Here are some settings we recommend you take a look at first](settings.md).
 
 
 # 3 Mods
@@ -171,6 +191,6 @@ TODO
 TODO
 
 
-# 6 Useful links
-- [Bear's Pit community](http://thepit.ja-galaxy-forum.com/)
-- Discord link?
+# 6 Community
+- [The Bear's Pit community](http://thepit.ja-galaxy-forum.com/)
+- [The Bear's Pit Discord](https://discord.gg/GqrVZUM)
