@@ -15,8 +15,8 @@ This documentation is up to date as of version XXXX.
 
 ## 0.2 What is 1.13?
 
-Jagged Alliance 2 v1.13 is a modification for the Jagged Alliance 2 game, with a host of new features and improvements, as well as externalizing a lot of data to make modding easier.
-Lots of features have been added like new resolutions, improved AI, weather effects and new items. 1.13 does still contain the original maps and quests.
+Jagged Alliance 2 v1.13 is a modification for the Jagged Alliance 2 game, with a host of new features and improvements, as well as externalizing a lot of data to make modding easier.  
+Lots of features have been added like new resolutions, improved AI, weather effects and new items. 1.13 does still contain the original maps and quests.  
 The 1.13 mod has been structured in such a way that it can be used as a baseline for creating new mods.
 
 ## 0.3 List of Features
@@ -56,7 +56,7 @@ This is the preferred way to go for people who want to start playing 1.13, it wi
 You can get the latest SCI file from the following OneDrive location [link](https://onedrive.live.com/?id=13A6926EAC52083!583&cid=013A6926EAC52083)  
 If you sort the OneDrive file listing from new to old you should see the file with the highest revision number up on top, download this one.
 
-Once you have downloaded the file you will need to extract its contents with a file archiver. There are different tools to use for this like [7-Zip](https://www.7-zip.org/ "7-Zip homepage").
+Once you have downloaded the file you will need to extract its contents with a file archiver. There are different tools to use for this like [7-Zip](https://www.7-zip.org/ "7-Zip homepage").  
 Extract the file to the location where your target JA2 installation is located and choose to overwrite files if you get asked, so for this example we'll use `C:\Games\Jagged Alliance 2\`. **If you are not prompted to overwrite files, you did not extract to the correct directory.**
 
 ### 1.2.2 Install release 7609
@@ -66,7 +66,6 @@ For the special cases with a requirement to run on release 7609, you can find it
 ### 1.2.3 Install 1.13 from SVN
 
 If you have a special reason to not use the SCI release, for example if you are actively helping to fix bugs in 1.13, it can be handy to get your gamedata and executable from source, this is however an advanced topic.
-
 
 ## 1.3 Fixes for newer Windows versions
 
@@ -78,7 +77,11 @@ There are a few things you will need to do to be able to play 1.13 well on the W
 - registry fix for 16-bit color mode
 - running on one CPU thread
 
+#### 1.3.1.1 Wine DLL's
+
 The Wine DLLs and registry fix can be found at `\Docs\Windows Compatibility Fixes\Windows 7-10 Fix.zip`. Make sure to read the included readme!
+
+#### 1.3.1.2 Single CPU thread
 
 To run the game on a single CPU thread, check out [these instructions](https://www.eightforums.com/threads/processor-affinity-set-for-applications-in-windows-8.24086/).
 
@@ -97,7 +100,7 @@ TODO
 TODO
 
 ### 2.2.1 New Game Settings
-TODO: descriptions and lists of possible values
+TODO: descriptions and lists of possible values  
 TODO: list 7609 options
 
 The following is from build 8657:
@@ -184,12 +187,30 @@ TODO
 ## 4.1 NCTH
 TODO
 
+# 5 Development
+The SCI's are made on a two weekly or monthly basis, if however you want to follow the development of 1.13 as close as possible or maybe even help you can compile the executable of 1.13 yourself and combine this with the latest game data.
 
-# 5 Using SVN
-TODO
+## 5.2 SVN
+The 1.13 development takes place on a so called Subversion server which from here we will call SVN, this software gives developers to possibility to collaborate on the project at the same time without losing any valuable work.  
+SVN needs a client to be able to make use of it's features, for Windows this client is called TortoiseSVN, you can find this at [Tortoise SVN download page](https://tortoisesvn.net/downloads.html)
 
-## 5.1 Compiling the game executable
+After installing TortoiseSVN you can create a new folder in any place and right click it, the context menu should show you an option called `SVN Checkout...`, when you click this a window will open, read on for further directions.
+
+### 5.2.1 the 1.13 source code
+To checkout the 1.13 executable source code with SVN you will have to fill in the following URL of the SVN repository: `https://ja2svn.mooo.com/source/ja2/trunk/GameSource/ja2_v1.13/Build`  
+Make sure the value for `Checkout directory` is the directory that you want to place the SVN copy in, leave other settings as they are and press OK.  
+The source code repository is just above 1GB in size, depending on your internet speed it could take a while for the SVN data to download, once it's done you will see the message `Completed` at the bottom of the activity window.
+
+### 5.2.2 the 1.13 game data
+The game data files are also located in a SVN repository at the following URL: `https://ja2svn.mooo.com/source/ja2_v1.13_data/GameDir`
+Also make sure that the `Checkout directory` is correct and leave the other settings as they are and press OK
+The game data repository is close to 2GB in size, depending on your internet speed it could take a while to download.
+
+## 5.2 Compiling the game executable
 TODO
+Jagged Alliance 2 is coded in a mixed style C/C++, the best development environment to use for this is Microsoft Visual Studio, a free version is available at https://visualstudio.microsoft.com/vs/express/
+You can pick from many versions of Visual Studio Express like 2005, 2008, 2010, 2013 or 2017
+
 
 
 # 6 Community
