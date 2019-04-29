@@ -3,8 +3,8 @@ This play guide will provide information about how to use the various features a
 
 ### Contents
 - [1. Starting a new game](#1-starting-a-new-game)
-  - [1.1 New Game settings](11-new-game-settings)
-  - [1.2 In-game settings](12-in-game-settings)
+  - [1.1 New Game settings](#11-new-game-settings)
+  - [1.2 In-game settings](#12-in-game-settings)
 - [2. Playing the game](#2-playing-the-game)
 - [3. Feature deep dive](#3-feature-deep-dive)
 - [4. Starter tips](#4-starter-tips)
@@ -14,37 +14,35 @@ This play guide will provide information about how to use the various features a
 TODO
 
 ### 1.1 New Game settings
-The settings available when starting a new game will vary depending on which version of 1.13 you are using.
+The settings available when starting a new game will vary depending on which release of 1.13 you are using.
 
-#### 1.1.1 Build 8610+
+#### 1.1.1 Release 8610+
 
 | Setting | Options (default in bold) | Description |
 | --- | --- |  --- |
 | Difficulty Level | Novice, **Experienced**, Expert, INSANE | This affects: <ul><li>Your starting cash.</li><li>How many Mercs from AIM can die during the game while on assignments (not with you).</li><li>The overall number of troops the Queen can have at one time.</li><li>The number of actions the Queen can make per day.</li><li>The size of patrols.</li><li>The number of Elite troops in patrols.</li><li>The chance of a patrol ambushing you.</li></ul>
-| Skill Traits | New, Old | --- |
+| Skill Traits | **New**, Old | --- |
 | Game Style | **Sci-Fi**, Realistic | --- |
 | Extra Difficulty | **Save Anytime**, Iron Man | --- |
 | Inventory / Attachments | **New/New**, New/Old, Old/Old |  Note there is no Old/New setting as the New Weapon Attachment system can only be used with the New Inventory system. |
-| Progress Speed of Item Choices | **Normal** |  --- |
+| Progress Speed of Item Choices | Very Slow, Slow, **Normal**, Fast, Very Fast |  --- |
 | Available Arsenal | **Tons of Guns**, Reduced |  --- |
-| Max. Squad Size | --- |  --- |
-| Bobby Ray Quality | 1~10 |  --- |
-| Bobby Ray Quantity | 1~10 |  --- |
+| Max. Squad Size | 6, 8, 10 |  Dependent on resolution. 800x600 allows for up to 8, 1024x768 allows for up to 10. |
+| Bobby Ray Quality | 1~10 (**Great (2)**) |  --- |
+| Bobby Ray Quantity | 1~10x (**Great (2x)**) |  --- |
 
-#### 1.1.2 Build 7609 (stable)
-Build 7609 has all of the settings from 8610+ (see above), as well as the following (which were moved to `JA2_Options.ini` in build 8610).
+#### 1.1.2 Release 7609 (stable)
+Release 7609 has all of the settings from r8610+ (see above), as well as the following (which were moved to `JA2_Options.ini` in r8610). [See here](http://thepit.ja-galaxy-forum.com/index.php?t=msg&th=23855) for more information.
 
-| Setting | Options (default in bold) | Setting name in `JA2_Options.ini` (8610+) | Description |
+| Setting | Options (default in bold) | Setting name in `JA2_Options.ini` (r8610+) | Description |
 | --- | --- |  --- |  --- |
-| Max IMP Characters | --- |  --- |  --- |
-| New Chance to Hit System | **Off**, On |  --- |  --- |
-| Enemies Drop All Items | **Off**, On |  --- |  --- |
-| Weapon Overheating | **Off**, On |  --- |  --- |
-| Improved Interrupt System | **Off**, On |  --- |  --- |
-| Inventory Manipulation Costs AP | **Off**, On |  --- |  --- |
-
-ERROR: remove weapon overheating, add merc story backgrounds and food system?
- 
+| Max IMP Characters | **1**~10 |  (deleted as of r8622) |  --- |
+| New Chance to Hit System | **Off**, On |  `NCTH` (Default: `FALSE`) |  --- |
+| Enemies Drop All Items | **Off**, On |  `DROP_ALL` (Default: `FALSE`) |  --- |
+| Merc Story Backgrounds | Off, **On** |  `BACKGROUNDS` (Default: `TRUE`) |  --- |
+| Food System | **Off**, On |  `FOOD` (Default: `FALSE`) |  --- |
+| Improved Interrupt System | **Off**, On |  `IMPROVED_INTERRUPT_SYSTEM` (Default: `TRUE`) |  --- |
+| Inventory Manipulation Costs AP | **Off**, On |  `INVENTORY_MANIPULATION_COSTS_AP` (Default: `FALSE`) |  --- |
 
 ### 1.2 In-game settings
 TODO
