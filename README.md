@@ -146,14 +146,14 @@ Check out [this page](recommended-settings.md) if you want to learn more about c
 
 ## 3 FAQs
 
-### 3.1 My game is running poorly on my Windows 8+ machine. How can I fix this? 
+### 3.1 The game is running poorly on my Windows 8+ machine. How can I fix this? 
 [Follow these instructions.](#13-fixes-for-newer-windows-versions)
 
 ### 3.2 The Drassen counterattack is too difficult!
 That's not a question but in `JA2_Options.ini` you can set `TRIGGER_MASSIVE_ENEMY_COUNTERATTACK_AT_DRASSEN` to `FALSE` to disable it.
 
 ### 3.3 My New Game settings don't have all the options I recall/have seen elsewhere. Where are they now?
-In revision 8610, some of the New Game settings were moved to `JA2_Options.ini`. Refer [here](play-guide.md#221-new-game-settings) for more info.
+In revision 8610, some of the New Game settings were moved to `JA2_Options.ini`. Refer [here](play-guide.md#11-new-game-settings) and [here](http://thepit.ja-galaxy-forum.com/index.php?t=msg&th=23855) for more info.
 
 ### 3.4 What is the difference between the OCTH (Old Chance to Hit) and the NCTH (New Chance to Hit) system?
 Put simply, NCTH aims to be more realistic by taking into account many more factors when computing the chance to hit. Some players prefer to use OCTH as it is generally more consistent and easier to understand. [This article](https://ja2v113ham.fandom.com/wiki/New_Chance_To_Hit) goes into great detail about how NCTH works.
@@ -166,25 +166,28 @@ Take a look at [Jagged Alliance 2 Stracciatella](https://ja2-stracciatella.githu
 
 
 ## 4 Mods
-Whilst 1.13 is itself a mod, it also has its own mods! Each mod may require a specific version of 1.13 to work.
+Whilst 1.13 is itself a mod, it also has its own mods! Each mod may require a specific version of 1.13 to work, often r7609 (aka "stable").
 
 ### 4.1 [AIMNAS](http://thepit.ja-galaxy-forum.com/index.php?t=msg&th=18815)
-[Download](https://github.com/aimnas/core)
+[Download](https://github.com/aimnas/core)  
+Currently requires at least r8163.
 
 ### 4.2 [Urban Chaos 1.13](http://thepit.ja-galaxy-forum.com/index.php?t=tree&th=18716)
-TODO
+The latest release as of 29/04/2019, [Urban Chaos-1.13 Full Experimental 11 v4.6x 20181223](http://thepit.ja-galaxy-forum.com/index.php?t=msg&th=23934&goto=356224&#msg_356224), supports r8633.
 
 ### 4.3 [Vengeance 1.13 Reloaded](http://thepit.ja-galaxy-forum.com/index.php?t=msg&th=23256)
-[Download](http://thepit.ja-galaxy-forum.com/index.php?t=msg&th=23264)
+[Download](http://thepit.ja-galaxy-forum.com/index.php?t=msg&th=23264)  
+This mod includes 1.13 so you do not need to worry about 1.13 version compatibility.
 
 ### 4.4 [Arulco Revisited](http://thepit.ja-galaxy-forum.com/index.php?t=msg&th=19441)
-TODO
+[This release](http://kermi.pp.fi/JA_2/Mods_v1.13/Arulco_Revisited/v1.4/Stable_Release_2014/) supports r7609.
 
 ### 4.5 [Arulco Vacations](http://arulco.blogspot.com/)
-TODO
+As of v1.11, Arulco Vacations is designed to be installed alongside r7609.
 
-### 4.6 [sevenfm's AI fixes](http://thepit.ja-galaxy-forum.com/index.php?t=msg&goto=347454&#msg_347454)
-[Download](https://drive.google.com/drive/folders/0B_PNaFvHBMdBYTh0NzBvc1c0Ym8)
+### 4.6 [7609+AI](http://thepit.ja-galaxy-forum.com/index.php?t=msg&goto=347454&#msg_347454)
+[Download](https://drive.google.com/drive/folders/0B_PNaFvHBMdBYTh0NzBvc1c0Ym8)  
+This is an alternate executable for 1.13 r7609 and is therefore only usable with r7609.
 
 
 ## 5 Glossary
@@ -194,6 +197,7 @@ TODO
 - IMP: a custom mercenary created by the player that has no upkeep cost. [More info](https://jaggedalliance.fandom.com/wiki/Institute_for_Mercenary_Profiling)
 - Map screen / Strategic screen: the map screen displays the world map of Arulco in a square grid (called sectors) and the forces deployed by the enemy and the player
 - Tactical screen: the tactical screen shows a sector from an isometric viewpoint. This is where you'll do your fighting.
+
 
 ## 6 Community
 - [The Bear's Pit forums](http://thepit.ja-galaxy-forum.com/)
