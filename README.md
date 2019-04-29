@@ -6,6 +6,8 @@
 **THIS DOCUMENT IS A WORK IN PROGRESS**  
 This document is an attempt to create clear and structured starter documentation for people who want to start playing *Jagged Alliance 2 v1.13*, which will henceforth be referred to simply as *1.13*.
 
+This documentation is up to date as of version XXXX.
+
 ### Contents
 - [0. Introduction](#0-introduction)
 - [1. Installation](#1-installation)
@@ -24,10 +26,9 @@ This document is an attempt to create clear and structured starter documentation
 
 ### 0.1 Preamble
 
+From years of hanging around in the [Bear's Pit community](http://thepit.ja-galaxy-forum.com/) we noticed there's a complete lack of explanation how to get started with this mod and everything surrounding it. Therefore, we are trying to create some concise and comprehensive documentation for use by both newcomers and veterans.
 
-From years of hanging around in the [Bear's Pit community](http://thepit.ja-galaxy-forum.com/) we noticed there's a complete lack of explanation how to get started with this mod and everything surrounding it.
-
-This documentation is up to date as of version XXXX.
+If you are completely new to Jagged Alliance 2, check out [its manual](https://store.steampowered.com/manual/545210) which is still mostly relevant to 1.13. Or you can watch a let's play of 1.13 on YouTube such as [this excellent one by Moerges](https://www.youtube.com/playlist?list=PL1ewRmt6QNI5Wa7c4CQ-2UD4xMWzgmIdB).
 
 ### 0.2 What is 1.13?
 
@@ -42,25 +43,23 @@ Here are some of the high points:
 - Custom resolutions (the original is locked at 640x480).
 - Externalisation of hardcoded data and settings to XML and INI files, allowing for deep user customisation and modding.
 - AI improvements (e.g. attacking from flanks and using cover)
-- A new, very challenging difficulty level: INSANE.
+- Suppressive fire mechanic
+- Improved autofire: you can choose how many rounds to fire
 - More detailed IMP (user-created mercenary) customisation, can create multiple IMPs
 - Militia can be directly ordered on both the tactical and strategic map
 - Weather effects (rain and thunder storms)
 - New items
   - Literally hundreds of new guns
   - New armour such as ghillie suits
-  - New ammo types, e.g. tracers, match ammo, and cold (subsonic) ammo.
+  - New ammo types, e.g. tracer, match, and cold (subsonic).
   - New LBE (Load Bearing Equipment, like vests, harnesses and holsters)
   - New weapon attachments ranging from optics to folding stocks to trigger groups.
-  - Urban and desert camouflage
-- More new game options to fine-tune difficulty and/or playstyle
 - New Inventory System makes your mercs' inventories more granular and customisable
 - New Weapon Attachment System allowing for up to nine attachment slots
-- Mercs from Unfinished Business and Wildfire available
-- New keyboard shortcuts and UI features
+- More new game options to fine-tune difficulty and/or playstyle
+  - A new, very challenging difficulty level: INSANE.
 - [Multiplayer](http://ja2v113.pbworks.com/w/page/4218359/Multiplayer)
-- More detailed item descriptions, giving more info about the stats of each item
-- Suppressive fire mechanic
+
 
 [...and much, much more.](http://ja2v113.pbworks.com/w/page/4218338/Features)
 
@@ -109,7 +108,7 @@ For the special cases with a requirement to run on release 7609 (namely mods), y
 
 #### 1.2.3 Install 1.13 from SVN
 
-If you have a special reason to not use the SCI release, for example if you are actively helping to fix bugs in 1.13, it can be handy to get your gamedata and executable from source. This is however an advanced topic which is covered in [section 5](#5-development).
+If you have a special reason to not use the SCI release, for example if you are actively helping to fix bugs in 1.13, it can be handy to get your gamedata and executable from source. This is however an advanced topic which is covered in more detail [here](development.md).
 
 ### 1.3 Fixes for newer Windows versions
 
@@ -147,49 +146,54 @@ Check out [this page](recommended-settings.md) if you want to learn more about c
 
 ## 3 FAQs
 
-### 3.1 My New Game settings don't have all the options I recall/have seen elsewhere. Where are they now?
+### 3.1 My game is running poorly on my Windows 8+ machine. How can I fix this? 
+[Follow these instructions.](#13-fixes-for-newer-windows-versions)
+
+### 3.2 The Drassen counterattack is too difficult!
+That's not a question but in `JA2_Options.ini` you can set `TRIGGER_MASSIVE_ENEMY_COUNTERATTACK_AT_DRASSEN` to `FALSE` to disable it.
+
+### 3.3 My New Game settings don't have all the options I recall/have seen elsewhere. Where are they now?
 In revision 8610, some of the New Game settings were moved to `JA2_Options.ini`. Refer [here](play-guide.md#221-new-game-settings) for more info.
 
-### 3.2 How do I change the amount of cash I start with?
+### 3.4 What is the difference between the OCTH (Old Chance to Hit) and the NCTH (New Chance to Hit) system?
+Put simply, NCTH aims to be more realistic by taking into account many more factors when computing the chance to hit. Some players prefer to use OCTH as it is generally more consistent and easier to understand. [This article](https://ja2v113ham.fandom.com/wiki/New_Chance_To_Hit) goes into great detail about how NCTH works.
+
+### 3.5 How do I change the amount of cash I start with?
 To change the amount of money you start with, open `\Data-1.13\TableData\DifficultySettings.xml` and edit the `<StartingCash>` value of the difficulty you want to play.
 
-### 3.3 What is the difference between OCTH and NCTH?
-TODO
-
-### 3.4 The Drassen counterattack is too difficult!
-That's not a question but in `JA2_Options.ini` you can set `TRIGGER_MASSIVE_ENEMY_COUNTERATTACK_AT_DRASSEN` to `FALSE` to disable it.
+### 3.6 What if I just want to play the vanilla game at higher resolutions?
+Take a look at [Jagged Alliance 2 Stracciatella](https://ja2-stracciatella.github.io/).
 
 
 ## 4 Mods
 Whilst 1.13 is itself a mod, it also has its own mods! Each mod may require a specific version of 1.13 to work.
 
-### 4.1 AIMNAS
+### 4.1 [AIMNAS](http://thepit.ja-galaxy-forum.com/index.php?t=msg&th=18815)
+[Download](https://github.com/aimnas/core)
+
+### 4.2 [Urban Chaos 1.13](http://thepit.ja-galaxy-forum.com/index.php?t=tree&th=18716)
 TODO
 
-### 4.2 Urban Chaos 1.13
+### 4.3 [Vengeance 1.13 Reloaded](http://thepit.ja-galaxy-forum.com/index.php?t=msg&th=23256)
+[Download](http://thepit.ja-galaxy-forum.com/index.php?t=msg&th=23264)
+
+### 4.4 [Arulco Revisited](http://thepit.ja-galaxy-forum.com/index.php?t=msg&th=19441)
 TODO
 
-### 4.3 Vengeance 1.13 Reloaded
+### 4.5 [Arulco Vacations](http://arulco.blogspot.com/)
 TODO
 
-### 4.4 Arulco Revisited
-TODO
-
-### 4.5 Arulco Vacations
-[Arulco Vacations](http://arulco.blogspot.com/)
-
-### 4.6 sevenfm's AI fixes
-TODO
+### 4.6 [sevenfm's AI fixes](http://thepit.ja-galaxy-forum.com/index.php?t=msg&goto=347454&#msg_347454)
+[Download](https://drive.google.com/drive/folders/0B_PNaFvHBMdBYTh0NzBvc1c0Ym8)
 
 
 ## 5 Glossary
 
-- Strategic map
-- Tactical map
-- Bobby Ray's
-- IMP
-- Arulco
-
+- Arulco: the fictional nation where Jagged Alliance 2 takes place. [More info](https://jaggedalliance.fandom.com/wiki/Arulco)
+- Bobby Ray's: an online gun shop available in Jagged Alliance 2. The site becomes available upon seizing Drassen airport. [More info](https://jaggedalliance.fandom.com/wiki/Bobby_Ray's_Guns_and_Things)
+- IMP: a custom mercenary created by the player that has no upkeep cost. [More info](https://jaggedalliance.fandom.com/wiki/Institute_for_Mercenary_Profiling)
+- Map screen / Strategic screen: the map screen displays the world map of Arulco in a square grid (called sectors) and the forces deployed by the enemy and the player
+- Tactical screen: the tactical screen shows a sector from an isometric viewpoint. This is where you'll do your fighting.
 
 ## 6 Community
 - [The Bear's Pit forums](http://thepit.ja-galaxy-forum.com/)
