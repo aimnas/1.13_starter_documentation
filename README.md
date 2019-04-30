@@ -202,3 +202,8 @@ This is an alternate executable for 1.13 r7609 and is therefore only usable with
 ## 6 Community
 - [The Bear's Pit forums](http://thepit.ja-galaxy-forum.com/)
 - [The Bear's Pit Discord](https://discord.gg/GqrVZUM)
+
+## 7 Credits
+
+- tais
+- Yunotchi
