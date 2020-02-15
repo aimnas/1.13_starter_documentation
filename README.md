@@ -16,6 +16,8 @@ This documentation is up to date as of version XXXX.
 - [4. Mods](#4-mods)
 - [5. Glossary](#5-glossary)
 - [6. Community](#6-community)
+- [7. Credits](#7-credits)
+- [8. Contribute](#8-contribute)
 
 ### More information
 - [Play Guide](play-guide.md)
@@ -25,13 +27,11 @@ This documentation is up to date as of version XXXX.
 ## 0 Introduction
 
 ### 0.1 Preamble
-
 From years of hanging around in the [Bear's Pit community](http://thepit.ja-galaxy-forum.com/) we noticed there's a complete lack of explanation how to get started with this mod and everything surrounding it. Therefore, we are trying to create some concise and comprehensive documentation for use by both newcomers and veterans.
 
 If you are completely new to Jagged Alliance 2, check out [its manual](https://store.steampowered.com/manual/545210) which is still mostly relevant to 1.13. Or you can watch a let's play of 1.13 on YouTube such as [this excellent one by Moerges](https://www.youtube.com/playlist?list=PL1ewRmt6QNI5Wa7c4CQ-2UD4xMWzgmIdB).
 
 ### 0.2 What is 1.13?
-
 Jagged Alliance 2 v1.13 is a modification for the Jagged Alliance 2 game, with a host of new features and improvements, as well as externalizing a lot of data to make modding easier.  
 Lots of features have been added like new resolutions, improved AI, weather effects and new items. 1.13 does still contain the original maps and quests.  
 The 1.13 mod has been structured in such a way that it can be used as a baseline for creating new mods.
@@ -65,7 +65,6 @@ Here are some of the high points:
 
 
 ## 1 Installation
-
 To play 1.13 you will have to:
 
 1. Acquire and install Jagged Alliance 2
@@ -73,7 +72,6 @@ To play 1.13 you will have to:
 3. Apply fixes if running Windows 8+
 
 ### 1.1 Jagged Alliance 2
-
 To be able to play 1.13 you will need to own the Jagged Alliance 2 game itself, there are several places where you can still get the game, for example:  
 
 - GOG https://www.gog.com/game/jagged_alliance_2
@@ -86,7 +84,6 @@ After you got your hand on a copy of JA2 and want to go install it, we have a fe
 - If you wonder how you will be able to use the Steam version of JA2, you can find it in the installation directory of Steam, usually in a place like `C:\Program Files\Steam\steamapps` you can make a copy of the Jagged Alliance 2 folder from there to a place like `C:\Games`
 
 ### 1.2 The 1.13 mod
-
 Once you have your clean JA2 installation ready to be turned into a clean 1.13 installation, there are a few routes you can go to achieve this.
 
 - Install the latest SCI (Single Click Installer, something of a misnomer). This is the best way to go as these SCI packages are based upon the latest game developments but don't worry, they are very stable.
@@ -94,7 +91,6 @@ Once you have your clean JA2 installation ready to be turned into a clean 1.13 i
 - Install 1.13 via the SVN route. This is an expert path because next to getting all the mod files from SVN you will have to compile the game's executable file from source code as well.
 
 #### 1.2.1 Install the latest SCI 
-
 This is the preferred way to go for people who want to start playing 1.13 as it will give you a good out of the box experience.  
 You can get the latest SCI file from [this OneDrive location](https://onedrive.live.com/?id=13A6926EAC52083!583&cid=013A6926EAC52083).  
 If you sort the OneDrive file listing from new to old you should see the file with the highest revision number up on top: download this one.
@@ -103,15 +99,12 @@ Once you have downloaded the file you will need to extract its contents with a f
 Extract the file to the location where your target JA2 installation is located and choose to overwrite files if you get asked, so for this example we'll use `C:\Games\Jagged Alliance 2\`. **If you are not prompted to overwrite files, you did not extract to the correct directory.**
 
 #### 1.2.2 Install release 7609
-
 For the special cases with a requirement to run on release 7609 (namely mods), you can find it on the [official 1.13 wiki site](http://ja2v113.pbworks.com/w/page/4218334/Downloads)
 
 #### 1.2.3 Install 1.13 from SVN
-
 If you have a special reason to not use the SCI release, for example if you are actively helping to fix bugs in 1.13, it can be handy to get your gamedata and executable from source. This is however an advanced topic which is covered in more detail [here](development.md).
 
 ### 1.3 Fixes for newer Windows versions
-
 Technically, there is no need to adjust anything to make 1.13 run well on Windows 7 and older. However there are a few things you will need to do to be able to play 1.13 well on the Windows 8+ versions, here's a list:
 
 - Wine DLLs
@@ -119,11 +112,9 @@ Technically, there is no need to adjust anything to make 1.13 run well on Window
 - running on one CPU thread
 
 #### 1.3.1 Wine DLLs and registry fix
-
 The Wine DLLs and registry fix can be found at `\Docs\Windows Compatibility Fixes\Windows 7-10 Fix.zip`. Make sure to read the included readme!
 
 #### 1.3.2 Single CPU thread
-
 To run the game on a single CPU thread, check out [these instructions](https://www.eightforums.com/threads/processor-affinity-set-for-applications-in-windows-8.24086/).
 
 
@@ -191,7 +182,6 @@ This is an alternate executable for 1.13 r7609 and is therefore only usable with
 
 
 ## 5 Glossary
-
 - Arulco: the fictional nation where Jagged Alliance 2 takes place. [More info](https://jaggedalliance.fandom.com/wiki/Arulco)
 - Bobby Ray's: an online gun shop available in Jagged Alliance 2. The site becomes available upon seizing Drassen airport. [More info](https://jaggedalliance.fandom.com/wiki/Bobby_Ray's_Guns_and_Things)
 - IMP: a custom mercenary created by the player that has no upkeep cost. [More info](https://jaggedalliance.fandom.com/wiki/Institute_for_Mercenary_Profiling)
@@ -204,6 +194,10 @@ This is an alternate executable for 1.13 r7609 and is therefore only usable with
 - [The Bear's Pit Discord](https://discord.gg/GqrVZUM)
 
 ## 7 Credits
-
 - tais
 - Yunotchi
+
+## 8 Contribute
+This documentation is far from complete, if this documentation made things easier for you to get started playing the 1.13 mod we hereby would like ask you to participate in extending the contents with anything you found missing.  
+This documentation should give you an insight on how you can participate via GitHub  
+https://github.com/firstcontributions/first-contributions/blob/master/README.md
