@@ -1,7 +1,13 @@
-# Development
+<p align="center">
+  <img src="113.png" alt="Jagged Alliance 2 1.13">
+</p>
+
+# Jagged Alliance 2 v1.13 - Development
+> **THIS DOCUMENT IS A WORK IN PROGRESS.**
+
 The SCIs are made on a two weekly or monthly basis. If, however, you want to follow the development of 1.13 as close as possible or maybe even help, you can compile the executable of 1.13 yourself and combine this with the latest game data.
 
-## 1 SVN
+## 1. SVN
 The 1.13 development takes place on a so called Subversion server which from here we will call SVN. This software gives developers to possibility to collaborate on the project at the same time without losing any valuable work.  
 SVN needs a client to be able to make use of its features, for Windows this client is [TortoiseSVN](https://tortoisesvn.net/downloads.html).
 
@@ -17,7 +23,7 @@ The game data files are also located in a SVN repository at the following URL: `
 Also make sure that the `Checkout directory` is correct and leave the other settings as they are and press OK.  
 The game data repository is close to 2GB in size, depending on your internet speed it could take a while to download.
 
-## 2 Compiling the game executable
+## 2. Compiling the game executable
 TODO  
 Jagged Alliance 2 is coded in a mixed style C/C++, the best development environment to use for this is Microsoft Visual Studio, a free version is available at https://visualstudio.microsoft.com/vs/express/
 You can pick from many versions of Visual Studio Express like 2005, 2008, 2010, 2013 or 2017.
