@@ -16,9 +16,9 @@ This play guide will provide information about how to use the various features a
 - [1. Starting a new game](#1-starting-a-new-game)
   - [1.1 New Game settings](#11-new-game-settings)
 - [2. Playing the game](#2-playing-the-game)
-- [3. Feature deep dive](#feature-deep-dive)
-  - [NCTH (New Chance to Hit)](#ncth)
-  - [NIS/NAS (New Inventory System & New Attachment System)](#nis-nas)
+- [3. Feature deep dive](#3-feature-deep-dive)
+  - [3.1 NCTH (New Chance to Hit)](#31-NCTH-New-Chance-to-Hit)
+  - [3.2 NIS/NAS (New Inventory System & New Attachment System)](#32-NISNAS)
 - [4. Starter tips](#4-starter-tips)
 
 
@@ -49,7 +49,7 @@ Release 7609 has all of the settings from r8610+ (see above), as well as the fol
 | Setting | Options (default in bold) | Setting name in `JA2_Options.ini` (r8610+) | Description |
 | ------- | ------------------------- | ------------------------------------------ | ----------- |
 | Max IMP Characters | **1**~10 |  (deleted as of r8622) |  --- |
-| New Chance to Hit System | **Off**, On |  `NCTH` (Default: `FALSE`) |  See [section 3.1](#ncth). |
+| New Chance to Hit System | **Off**, On |  `NCTH` (Default: `FALSE`) |  See [section 3.1](#31-NCTH-New-Chance-to-Hit). |
 | Enemies Drop All Items | **Off**, On |  `DROP_ALL` (Default: `0`) |  Controls if NPCs drop all their items when they are killed. |
 | Merc Story Backgrounds | Off, **On** |  `BACKGROUNDS` (Default: `TRUE`) |  --- |
 | Food System | **Off**, On |  `FOOD` (Default: `FALSE`) |  Enabling the *Food System* means the player must keep their mercenaries fed and quenched else they will suffer drawbacks; potentially death if deprived long enough. |
@@ -85,18 +85,18 @@ For in-depth details on some of these new systems, please refer to section 3.
 https://ja2v113ham.fandom.com/wiki/Game_Progress-Weight_Controls
 
 
-## 3. Feature deep dive {#feature-deep-dive}
+## 3. Feature deep dive
 
-### 3.1 NCTH (New Chance to Hit) {#ncth}
+### 3.1 NCTH (New Chance to Hit)
 Put simply, NCTH aims to be more realistic by taking into account many more factors when computing the chance to hit. Some players prefer to use OCTH as it is generally more consistent and easier to understand. [This article](https://ja2v113ham.fandom.com/wiki/New_Chance_To_Hit) goes into great detail about how NCTH works.
 
 
-### 3.2 NIS/NAS {#nis-nas}
+### 3.2 NIS/NAS
 TODO
 
-#### 3.2.1 NIS (New Inventory System) {#nis}
+#### 3.2.1 NIS (New Inventory System)
 
-#### 3.2.2 NAS (New Attachment System) {#nas}
+#### 3.2.2 NAS (New Attachment System)
 
 
 ## 4. Starter tips
