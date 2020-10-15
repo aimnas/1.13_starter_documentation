@@ -94,6 +94,8 @@ Once you have your clean JA2 installation ready to be turned into a clean 1.13 i
 #### 1.2.1 Install the latest SCI 
 This is the preferred way to go for people who want to start playing 1.13 as it will give you a good out of the box experience.
 
+> As of 2020/10/15, the OneDrive link below is not being updated. An **unofficial** source for the latest SCIs can be found [here](https://jenkins.maeyanie.com/job/JA2%20SCI/).
+
 You can get the latest SCI file from [this OneDrive location](https://onedrive.live.com/?id=13A6926EAC52083!583&cid=013A6926EAC52083). If you sort the OneDrive file listing from new to old you should see the file with the highest revision number up on top: download this one.
 
 Once you have downloaded the file you will need to extract its contents with a file archiver. There are different tools to use for this like [7-Zip](https://www.7-zip.org/ "7-Zip homepage"). Extract the file to the location where your target JA2 installation is located and choose to overwrite files if you get asked, so for this example we'll use `C:\Games\Jagged Alliance 2\`.
