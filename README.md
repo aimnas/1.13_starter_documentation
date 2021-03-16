@@ -103,10 +103,10 @@ Once you have downloaded the file you will need to extract its contents with a f
 > **If you are not prompted to overwrite files, you did not extract to the correct directory.**
 
 #### 1.2.2 Install release 7609
-For the special cases with a requirement to run on release 7609 (namely mods), you can find it on the [official 1.13 wiki site](http://ja2v113.pbworks.com/w/page/4218334/Downloads).
+For the special cases with a requirement to run on release 7609 (namely mods), you can find it [here](https://storage.rcs-rds.ro/links/4729f8d6-f44b-42b7-aa3e-e0ddc6deead6?path=%2FJA_2%2Fv1.13_Releases%2FOfficial%2FEnglish%2Fv7435). You will need to download both `JA2_113_FullRelease_English_7435.exe` and `JA2_113_UpdateForRelease7435_English_7609.exe`.
 
 #### 1.2.3 Install 1.13 from SVN
-If you have a special reason to not use the SCI release, for example if you are actively helping to fix bugs in 1.13, it can be handy to get your gamedata and executable from source. This is however an advanced topic which is covered in more detail [here](development.md).
+If you have a special reason to not use the SCI release, for example if you are actively helping to fix bugs in 1.13, it can be handy to get your gamedata and executable from source. This is however an advanced topic which is covered in more detail [here](development.md). 
 
 ### 1.3 Fixes for newer Windows versions
 Technically, there is no need to adjust anything to make 1.13 run well on Windows 7 and older. However there are a few things you will need to do to be able to play 1.13 well on the Windows 8+ versions, here's a list:
