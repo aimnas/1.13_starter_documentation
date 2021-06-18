@@ -19,21 +19,21 @@ The following settings can be found in `\Data-1.13\JA2_Options.ini`.
 
 |  r7609  |  r8741  | Setting | Description |
 |  :---:  |  :---:  |   ---   |     ---     |
-| &check; | &check; | `TRIGGER_MASSIVE_ENEMY_COUNTERATTACK_AT_DRASSEN` | Should be set to `FALSE` for a new player. It is infamous for being very difficult to handle so early in the campaign. |
-| &cross; | &check; | `REDUCED_INSTANT_DEATH` | Lowers lethal damage to cause the merc to fall into a coma rather than die. Makes merc deaths less likely. |
-| &check; | &check; | `MINE_INCOME_PERCENTAGE` | Changes how much cash mines generate. |
-| &check; | &check; | `WHICH_MINE_SHUTS_DOWN` | Controls which mine will run out of ore and stop working. |
-| &check; | &check; | `STEALING_FROM_SHIPMENTS_DISABLED` | Disables stealing from shipments (e.g. Pablo in Drassen). |
-| &check; | &check; | `CHANCE_OF_SHIPMENT_LOSS` | Sets the chance of a whole shipment from Bobby Ray being lost. |
-| &check; | &check; | `CHANCE_TONY_AVAILABLE` | Can be set to 100% if you always want to meet Tony (a useful fellow). |
-| &check; | &check; | `ENABLE_ALL_WEAPON_CACHES` | Enables all sectors with "secret" weapon caches. |
-| ~ | &check; | `DROP_ALL` | Normally, enemies have a chance to drop items when killed. `1` forces all items to drop. `2`  will also drop all but the items that wouldn't have dropped normally are severely damaged. In r7609, this setting is available on the New Game screen. |
-| &check; | &check; | `SELL_ITEMS_WITH_ALT_LMB` | Allows the player to sell their items directly from the sector inventory screen whenever they wish. |
-| &check; | ~ | `ALLOW_REINFORCEMENTS` | Allows enemies/militia to reinforce an adjacent sector. They arrive at the edge of the map a few turns after the battle starts. As of r8741, this setting is in `TableData\DifficultySettings.xml` (see XML tweaks section of this page). |
-| &check; | &check; | `MERCS_CAN_BE_ON_ASSIGNMENT` | Decides if all mercs will be available at the start of the game and if they will go on other assignments during the campaign. |
-| &check; | &check; | `MERCS_CAN_DIE_ON_ASSIGNMENT` | Allows mercs to die when away on other assignments. |
-| &check; | &check; | `SHOW_SKILLS_IN_HIRING_PAGE` | Shows skills and traits as a tooltip on a merc's portrait in both the AIM & MERC hiring page. |
-| &check; | &check; | `SLAY_STAYS_FOREVER` | Determines if a character, Slay, will stay with your team indefinitely. |
+| ✓ | ✓ | `TRIGGER_MASSIVE_ENEMY_COUNTERATTACK_AT_DRASSEN` | Should be set to `FALSE` for a new player. It is infamous for being very difficult to handle so early in the campaign. |
+| ✗ | ✓ | `REDUCED_INSTANT_DEATH` | Lowers lethal damage to cause the merc to fall into a coma rather than die. Makes merc deaths less likely. |
+| ✓ | ✓ | `MINE_INCOME_PERCENTAGE` | Changes how much cash mines generate. |
+| ✓ | ✓ | `WHICH_MINE_SHUTS_DOWN` | Controls which mine will run out of ore and stop working. |
+| ✓ | ✓ | `STEALING_FROM_SHIPMENTS_DISABLED` | Disables stealing from shipments (e.g. Pablo in Drassen). |
+| ✓ | ✓ | `CHANCE_OF_SHIPMENT_LOSS` | Sets the chance of a whole shipment from Bobby Ray being lost. |
+| ✓ | ✓ | `CHANCE_TONY_AVAILABLE` | Can be set to 100% if you always want to meet Tony (a useful fellow). |
+| ✓ | ✓ | `ENABLE_ALL_WEAPON_CACHES` | Enables all sectors with "secret" weapon caches. |
+| ~ | ✓ | `DROP_ALL` | Normally, enemies have a chance to drop items when killed. `1` forces all items to drop. `2`  will also drop all but the items that wouldn't have dropped normally are severely damaged. In r7609, this setting is available on the New Game screen. |
+| ✓ | ✓ | `SELL_ITEMS_WITH_ALT_LMB` | Allows the player to sell their items directly from the sector inventory screen whenever they wish. |
+| ✓ | ~ | `ALLOW_REINFORCEMENTS` | Allows enemies/militia to reinforce an adjacent sector. They arrive at the edge of the map a few turns after the battle starts. As of r8741, this setting is in `TableData\DifficultySettings.xml` (see XML tweaks section of this page). |
+| ✓ | ✓ | `MERCS_CAN_BE_ON_ASSIGNMENT` | Decides if all mercs will be available at the start of the game and if they will go on other assignments during the campaign. |
+| ✓ | ✓ | `MERCS_CAN_DIE_ON_ASSIGNMENT` | Allows mercs to die when away on other assignments. |
+| ✓ | ✓ | `SHOW_SKILLS_IN_HIRING_PAGE` | Shows skills and traits as a tooltip on a merc's portrait in both the AIM & MERC hiring page. |
+| ✓ | ✓ | `SLAY_STAYS_FOREVER` | Determines if a character, Slay, will stay with your team indefinitely. |
 
 
 ## 2. XML tweaks
@@ -62,14 +62,23 @@ This feature allows enemies/militia to reinforce an adjacent sector. They arrive
 <!-- TODO: move this section to another page titled "advanced settings/configuration" -->
 The authors of this document take no responsibility for any unintended behaviour caused by the following, third-party software.
 
-### 3.1 dgVoodoo 2
-TODO  
-https://www.pcgamingwiki.com/wiki/DgVoodoo_2
+### 3.1 Scaling and borderless window options
+To run JA2 in a borderless window, or to integer scale the game for a sharper image, check out the following tools:
 
-### 3.2 IntegerScaler
+### 3.1.1 dgVoodoo 2
 TODO  
-https://tanalin.com/en/projects/integer-scaler/
+[Link](https://www.pcgamingwiki.com/wiki/DgVoodoo_2)
 
-### 3.3 Wine
+### 3.1.2 DxWnd
 TODO  
-https://www.winehq.org/
+[Link](https://sourceforge.net/projects/dxwnd/)
+
+### 3.1.3 IntegerScaler
+TODO  
+[Link](https://tanalin.com/en/projects/integer-scaler/)
+
+### 3.2 Compatibility
+
+### 3.2.1 Wine
+TODO  
+[Link](https://www.winehq.org/)
