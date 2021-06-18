@@ -37,7 +37,7 @@ The settings available when starting a new game will vary depending on which rel
 
 | Setting | Options (default in bold) | Description |
 | ------- | ------------------------- | ----------- |
-| Difficulty Level | Novice, **Experienced**, Expert, INSANE | Difficulty affects many things: <br />- Starting amount of cash<br />- How many AIM mercenaries can die while on assignments (not with you)<br />- The overall number of troops the Queen can have at one time and the size of patrols<br />- Extra APs for enemies<br />- The number of elite troops in patrols; The chance of a patrol ambushing you; Base chance to hit (if using NCTH)<br /> ※ To see the full effects, look at `\Data-1.13\TableData\DifficultySettings.xml`.
+| Difficulty Level | Novice, **Experienced**, Expert, INSANE | Difficulty affects many things: <br />- Starting amount of cash<br />- How many AIM mercenaries can die while on assignments (not with you)<br />- The overall number of troops the Queen can have at one time and the size of patrols<br />- Extra APs for enemies<br />- The number of elite troops in patrols<br />- The chance of a patrol ambushing you<br />- Base chance to hit (if using NCTH)<br /> ※ To see the full effects, look at `\Data-1.13\TableData\DifficultySettings.xml`.
 | Skill Traits | **New**, Old | The *New* Traits system divides the old Traits into Major and Minor Traits, makes changes, and adds some new Traits as well. Tooltips provide detailed information on what each Trait does by hovering the mouse cursor over it. |
 | Game Style | **Sci-Fi**, Realistic | In *Sci-Fi* mode you will encounter a unique enemy type and unrealistic weapons. *Realistic* mode removes these. |
 | Extra Difficulty | **Save Anytime**, Iron Man | *Save Anytime* allows you to save... any time you fancy. In *Iron Man* you may only save in a sector not occupied by enemies.  |
@@ -75,23 +75,23 @@ Here are some useful shortcuts added in 1.13 to use in the tactical screen (i.e.
 | Shortcut | Function |
 | -------- | -------- |
 | J | Jump/climb an obstacle with the selected merc. |
-| F |	Displays useful info about a given tile, including CTH, range, and lighting level. |
-| L | Look in a direction with the 'L' key and then do it again to ready your weapon. Note that some bonuses, like scope vision range bonuses, only apply when a weapon is raised. |
+| F |	Display useful info about a given tile, including CTH, range, and lighting level. |
+| L | Look in a direction. Press L again to ready a weapon. Note that some bonuses, like scope vision range bonuses, only apply when a weapon is raised. |
 | Q | Switch between standard grenade launcher angles and higher angles. Higher angles enable you to launch grenades farther and over some obstacles. |
-| ALT + R | Reloads all weapons (in hand) of selected merc. |
+| ALT + R | Reload all weapons (in hand) of selected merc. |
 | SHIFT + R | Reload all weapons of your squad. |
-| SHIFT + N | Toggles NVGs/sun goggles for all mercs in active team. |
+| SHIFT + N | Toggle NVGs/sun goggles for all mercs in active team. |
 | SHIFT + K | Swap valid weapons between gunsling and primary hand. |
 | SHIFT + B | Drop backpacks for all mercs in the current sector. (This can be useful because backpacks reduce merc APs.) |
 | CTRL + SHIFT + F | Pick up all dropped backpacks, then sort sector inventory. |
 
 ### 2.3 Feature overview
-To discover some noteworthy 1.13 features, check out [this page](http://ja2v113.pbworks.com/w/page/4218346/Instructions%20For%20New%20Features). Be sure to look at the links at the bottom of this page.
+To discover some noteworthy 1.13 features, check out [this page](http://ja2v113.pbworks.com/w/page/4218346/Instructions%20For%20New%20Features). Be sure to look at the links at the bottom.
 
 For information on some of these new systems, please refer to [section 3](#3-feature-deep-dive).
 
 ### 2.4 Progress and coolness
-As you play the game, a "progress" value increases. This directly affects the availability "coolness" This will affect what weapons and equipment become available at shops and in enemy hands. [More info here](https://ja2v113ham.fandom.com/wiki/Game_Progress-Weight_Controls).
+As you play the game, a "progress" value increases. As progress increases, items of higher "coolness" become available at shops and in enemy hands. [More info here](https://ja2v113ham.fandom.com/wiki/Game_Progress-Weight_Controls).
 
 
 ## 3. Feature deep dive
@@ -127,7 +127,7 @@ These functions are optional but can add a nice level of realism or complexity i
 A merc equipped with binoculars can provide an aiming bonus to nearby mercs who are using sniper rifles. [More info here](https://thepit.ja-galaxy-forum.com/index.php?t=msg&th=21603).
 
 #### 3.3.2 Assistant machinegunner
-Externally-fed machineguns can loaded by an adjacent merc holding an ammo belt. [More info here](https://thepit.ja-galaxy-forum.com/index.php?t=msg&th=20084).
+Externally-fed machineguns can be loaded by an adjacent merc holding an ammo belt. [More info here](https://thepit.ja-galaxy-forum.com/index.php?t=msg&th=20084).
 
 #### 3.3.3 Radio operator
 Radio sets can be used to call for militia reinforcements, artillery strikes, or jam enemy communications. [More info here](https://thepit.ja-galaxy-forum.com/index.php?t=msg&th=21476).
